@@ -17,10 +17,10 @@ public class Numberchecker {
                     int num = new Scanner((System.in)).nextInt();
 
                     if (num % 2 == 0) {
-                        System.out.println("the number is actually even");
+                        System.out.println("the number is even");
                     }
                     if (num % 2 != 0) {
-                        System.out.println("the number is  odd");
+                        System.out.println("the number is odd");
                     }
                     count++;
                 } else {
